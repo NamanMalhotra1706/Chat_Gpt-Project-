@@ -75,7 +75,7 @@ const handleSubmit=async(event)=>{
   loader(messageDiv);
 
   //Fetch data from server --> Using Open AI key --> Chat Bot response
-  const response = await fetch('http://localhost:3000', {
+  const response = await fetch('https://chatgpt-project-namanmalhotra.onrender.com', {
     method: 'POST',
     headers: {
         'Content-Type': 'application/json',
